@@ -1,26 +1,19 @@
 {
-  "name": "3dglo",
+  "name": "webpack",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack --watch --mode=development",
     "start": "webpack serve --mode=development --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daweed311/3DGlo.git"
-  },
-  "author": "daweed",
+  "author": "Daweed",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daweed311/3DGlo/issues"
-  },
-  "homepage": "https://github.com/daweed311/3DGlo#readme",
   "devDependencies": {
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
