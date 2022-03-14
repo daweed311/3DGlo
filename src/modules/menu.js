@@ -38,6 +38,6 @@ const menu = () => {
     menuItems.forEach(menuItem => menuItem.addEventListener('click', handleMenu));
     menuItems.forEach(menuItem => menuItem.addEventListener('click', smoothScroll));
     nextBtn.addEventListener('click', smoothScroll);
-}
 
+}; 
 export default menu;

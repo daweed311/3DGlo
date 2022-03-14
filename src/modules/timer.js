@@ -26,7 +26,7 @@ const timer = (deadline) => {
         if (!getTime.timeRemaining) {
             clearInterval(updateClock);
         }
-    }, 1000);
-}
+    }, 1000);}
+
 
 export default timer;
