@@ -8,15 +8,16 @@ const modal = () => {
 
   const animationPopupContent = () => {
     const maxCountAnimation = Math.round(
-      100 - (popupContent.getBoundingClientRect().left * 100) / window.innerWidth
+      100 -
+        (popupContent.getBoundingClientRect().left * 100) / window.innerWidth
     );
-    let countAnimation = 0;
+    let countAnimation = 30;
 
     (function animation() {
       if (countAnimation < maxCountAnimation) {
         requestAnimationFrame(animation);
-        popupContent.style.transform = "translateX(0px)";
-        popupContent.style.top = `${90 - countAnimation}%`;
+        popupContent.style.transform = `translateX( 0px )`;
+        popupContent.style.left = `${100 - countAnimation}%`;
         countAnimation++;
       } else {
         popupContent.style.left = "";
